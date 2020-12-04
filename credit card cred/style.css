@@ -1,0 +1,165 @@
+        body {
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+        }
+        
+        p {
+            line-height: 2;
+        }
+        /* container-section  */
+        
+        .container-fluid {
+            padding: 5% 12%;
+        }
+        
+        .container {
+            padding-left: 0px;
+        }
+        /* all title section  */
+        
+        .big-title-1 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 6rem;
+            color: white;
+        }
+        
+        .sub-title {
+            color: white;
+            font-size: 2rem;
+            font-weight: 600;
+            margin: 20px 0px;
+        }
+        /* header section  */
+        
+        #header {
+            background-color: black;
+            text-align: center;
+        }
+        
+        .nav-item {
+            padding: 20px;
+        }
+        
+        .navbar {
+            padding-left: 0px;
+        }
+        /* reward section  */
+        
+        #reward {
+            background-color: rgb(233, 68, 39);
+            text-align: left;
+        }
+        
+        .reward-p {
+            padding-right: 300px;
+        }
+        
+        .reward-title {
+            padding-right: 240px;
+        }
+        /* reward partners  */
+        
+        .brand-image {
+            width: 10%;
+            height: 5%;
+            margin: 10px 40px;
+            margin-left: 0px;
+        }
+        
+        .reward-p-h3 {
+            color: #1a1c20;
+            font-size: 2rem;
+            font-weight: 600;
+        }
+        /* upgrad section  */
+        
+        #upgrade {
+            background-color: #153e90;
+        }
+        
+        .down-btn-title {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        
+        .down-btn-top {
+            margin-top: 40px;
+        }
+        /* customer-rating section  */
+        
+        #cus-rat {
+            background-color: #1a1c20;
+        }
+        
+        .cus-rat-title {
+            display: inline-block;
+            float: left;
+        }
+        
+        .cus-rat-mid-title {
+            color: white;
+            font-weight: 600;
+            display: block;
+            margin-right: 80px;
+            width: 300px;
+            font-size: 3rem;
+        }
+        
+        .apple {
+            text-align: center;
+            padding: 10px;
+        }
+        
+        .botm-btn {
+            margin-top: 20px;
+        }
+        
+        .btn1 {
+            display: flex;
+        }
+        
+        .down-btn {
+            margin: 10px;
+        }
+        
+        #carouselExampleSlidesOnly {
+            text-align: center;
+            margin-top: 50px;
+        }
+        /* footer section  */
+        
+        #footer {
+            background-color: black;
+            text-align: center;
+        }
+        
+        .logo {
+            margin: 0px 10px;
+        }
+        
+        .logo-title {
+            font-size: 1rem;
+            color: grey;
+            margin-top: 10px;
+        }
+        
+        @media(max-width:1076px) {
+            .reward-p {
+                padding-right: 0px;
+                line-height: 1.5;
+            }
+            .big-title-1 {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 600;
+                font-size: 4rem;
+                color: white;
+                padding-right: 0px;
+            }
+            .cus-rat-mid-title {
+                font-size: 2rem;
+            }
+            #header {
+                text-align: left;
+            }
+        }
